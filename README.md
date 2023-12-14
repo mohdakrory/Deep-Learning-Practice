@@ -11,6 +11,5 @@ This Example consists of
 - Train test split
 - Image processing with Keras ImageDataGenerator
 - Building a CNN model and visualizing it's architecture
-- Model training and performance assessment (metrics, classification report, and confusion matrix)
-- Training and validation curves visualization
+- Model training and performance assessment (metrics, classification report, confusion matrix, training and validation curves visualization)
 - Visualization of the confusion matrix
