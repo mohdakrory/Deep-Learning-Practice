@@ -1,9 +1,8 @@
-Covid-19 detection from chest X-ray images 
---
+# Covid-19 detection from chest X-ray images 
 
 Differentiate between Covid-19, Pneumonia, and the normal case from chest X-ray images
 
-**Dataset description**
+## Dataset description
 
 [COVID19_Pneumonia_Normal_Chest_Xray_PA_Dataset](https://www.kaggle.com/datasets/amanullahasraf/covid19-pneumonia-normal-chest-xray-pa-dataset)
 
@@ -12,11 +11,23 @@ Differentiate between Covid-19, Pneumonia, and the normal case from chest X-ray 
 
 ![covid-dataset-samples](https://github.com/mohdakrory/AI-Based-Medical-Diagnosis-System/assets/67663339/9f8e348d-a40b-457f-b023-77c6b8a7ce41)
 
-**Proposed model**
+## Train test split
+
+**Training set:** 2012 images for each class, with 20% of these images designated for validation, random shuffling was performed per epoch to ensure a diverse and representative training process
+
+ **Testing set:** 301 images for each class
+
+ ## Image preprocessing
+
+ All images were normalized and resized to 224*224 with a batch size of 32
+
+## Model architecture
 
 ![VGG19+AFR](https://github.com/mohdakrory/AI-Based-Medical-Diagnosis-System/assets/67663339/54d74ec0-8b0c-42d3-a933-e63de63da8be)
 
-**Model performance**
+## Model performance
+
+**Performance measures on the test set** 
 
 <table>
   <tr>
@@ -39,6 +50,70 @@ Differentiate between Covid-19, Pneumonia, and the normal case from chest X-ray 
   </tr>
 </table>
 
+**Classification report**
+
+<table border="1">
+  <tr>
+    <th>Index</th>
+    <th>Class Name</th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>F1-Score</th>
+    <th>Support</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>covid</td>
+    <td>0.9896</td>
+    <td>0.9695</td>
+    <td>0.9795</td>
+    <td>295</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>normal</td>
+    <td>0.911</td>
+    <td>0.9867</td>
+    <td>0.9474</td>
+    <td>301</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>pneumonia</td>
+    <td>0.9894</td>
+    <td>0.9269</td>
+    <td>0.9571</td>
+    <td>301</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Accuracy</b></td>
+    <td></td>
+    <td></td>
+    <td>0.961</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Macro Avg</b></td>
+    <td>0.9633</td>
+    <td>0.961</td>
+    <td>0.9613</td>
+    <td>897</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Weighted Avg</b></td>
+    <td>0.9632</td>
+    <td>0.961</td>
+    <td>0.9612</td>
+    <td>897</td>
+  </tr>
+</table>
+
+**Training and validation curves**
+
+![curves](https://github.com/mohdakrory/AI-Based-Medical-Diagnosis-System/assets/67663339/c1926be0-69b4-40fe-9006-d5e33e764303)
+
+**Confusion matrix visualization**
+
 <table>
   <tr>
     <td>
@@ -50,10 +125,6 @@ Differentiate between Covid-19, Pneumonia, and the normal case from chest X-ray 
   </tr>
 </table>
 
-![curves](https://github.com/mohdakrory/AI-Based-Medical-Diagnosis-System/assets/67663339/c1926be0-69b4-40fe-9006-d5e33e764303)
-
-![image](https://github.com/mohdakrory/AI-Based-Medical-Diagnosis-System/assets/67663339/0b0674c2-d7dd-44a7-9dd6-660f23a696ac)
-
-**Kaggle notebook for model training**
+## Kaggle notebook for model training
 
 [Notebook](https://www.kaggle.com/code/mohamedeldakrory8/covid-19-chest-x-ray-graduation)
