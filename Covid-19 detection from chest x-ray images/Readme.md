@@ -13,9 +13,11 @@ Differentiate between Covid-19, Pneumonia, and the normal case from chest X-ray 
 
 ## Train test split
 
+**Train:Test -> 0.86:0.13**
+
 **Training set:** 2012 images for each class, with 20% of these images designated for validation, random shuffling was performed per epoch to ensure a diverse and representative training process
 
- **Testing set:** 301 images for each class
+**Testing set:** 301 images for each class
 
  ## Image preprocessing
 
