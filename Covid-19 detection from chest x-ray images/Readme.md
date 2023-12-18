@@ -87,6 +87,9 @@ Differentiate between Covid-19, Pneumonia, and the normal case from chest X-ray 
     <td>0.9571</td>
     <td>301</td>
   </tr>
+ <tr>
+    <td colspan="6"></td>
+  </tr>
   <tr>
     <td colspan="2"><b>Accuracy</b></td>
     <td></td>
