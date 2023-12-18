@@ -26,4 +26,4 @@ This Example consists of
 - Building a CNN model based on the VGG-19 pre-trained layers and architecture visualizing 
 - Model training and performance assessment
 - classification metrics, classification report, confusion matrix, training and validation curves visualization, visualization of the confusion matrix
-- - Making predictions on a new image
+- Making predictions on a new image
