@@ -22,6 +22,6 @@ This Example consists of
 - Dataset description (samples, class distribution, total no. of samples)
 - Train test split
 - Image processing with Keras ImageDataGenerator
-- Building a CNN model based on the VGG-19 pre-trained layers and visualizing its architecture
+- Building a CNN model based on the VGG-19 pre-trained layers and architecture visualizing 
 - Model training and performance assessment
 - classification metrics, classification report, confusion matrix, training and validation curves visualization, visualization of the confusion matrix
