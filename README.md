@@ -3,7 +3,7 @@ This repository comprises illustrative examples showcasing the application of de
 
 ## Automobile mile per gallon prediction
 
-Building an MLP regression model with keras to predict mile per gallon for given features of an automobile 
+Building a MLP regression model with keras to predict mile per gallon for given features of an automobile 
 
 This Example consists of 
 
@@ -12,7 +12,7 @@ This Example consists of
 - Feature Encoding
 - Feature scaling with MinMaxScaler
 - Train-Test split
-- Creating an MLP regression network and visualizing its architecture 
+- Creating a MLP regression network and visualizing its architecture 
 - Model training and performance assessment (MSE, MAE, R2)
 - Making predictions on a new sample 
 
