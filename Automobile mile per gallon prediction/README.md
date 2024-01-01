@@ -534,7 +534,7 @@ Predict automobile mile per gallon based on given features
 
 ### Pair plot
 
-![pair_plot]()
+
 
 ### Pandas profile report 
 
