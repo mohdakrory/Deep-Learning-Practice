@@ -411,4 +411,21 @@ Predict automobile mile per gallon based on given features
 
 > Horsepower is converted to float while origin is left as an object because it will be mapped back to numbers to calculate correlation
 
+### Visualization of categorical features 
+
+**Bar (count) plot**
+
+![categories_bar_plots](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/ea320f57-ce21-4ab7-b0b3-3f1bb3338c8d)
+
+**Box plot**
+
+![categories_box_plots ](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/5409668b-4c94-4959-abf4-10bb0a8ea4d4)
+
+**Violin plot**
+
+![categories_violin_plots](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/11e9f851-ea16-418c-a62d-d6446d26948e)
+
+**Combined**
+
+![categorical_combined (1)](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/d9476063-4f9b-486d-96c3-fbeaa8063368)
 
