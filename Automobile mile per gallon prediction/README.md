@@ -411,7 +411,7 @@ Predict automobile mile per gallon based on given features
 
 > Horsepower is converted to float while origin is left as an object because it will be mapped back to numbers to calculate correlation
 
-### Visualization of categorical features 
+### Visualization of categorical (discrete) features 
 
 **Bar (count) plot**
 
@@ -429,3 +429,113 @@ Predict automobile mile per gallon based on given features
 
 ![categorical_combined (1)](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/d9476063-4f9b-486d-96c3-fbeaa8063368)
 
+### Visualization of continuous features
+
+**Hist plot**
+
+![continous_hist_plot (1)](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/f6a41cf2-d4e5-41e0-8585-f3cd3b696133)
+
+**Density plot**
+
+![continous_density_plot](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/5a462202-9238-4253-b406-f3e8a98978b6)
+
+**Hist plot with kde curve**
+
+![continous_hist_kde_plot](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/c9eba633-5d9d-4f60-9cb2-882275c54a8a)
+
+**Combined**
+
+![continous_combined](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/a9f9fe33-27fd-41ff-979f-63d507136c33)
+
+### continuous features descriptive statistics
+
+<table border="1">
+  <thead>
+    <tr>
+      <th></th>
+      <th>mpg</th>
+      <th>displacement</th>
+      <th>horsepower</th>
+      <th>weight</th>
+      <th>acceleration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>count</td>
+      <td>392.0000</td>
+      <td>392.0000</td>
+      <td>392.0000</td>
+      <td>392.0000</td>
+      <td>392.0000</td>
+    </tr>
+    <tr>
+      <td>mean</td>
+      <td>23.4459</td>
+      <td>194.4120</td>
+      <td>104.4694</td>
+      <td>2977.5842</td>
+      <td>15.5413</td>
+    </tr>
+    <tr>
+      <td>std</td>
+      <td>7.8050</td>
+      <td>104.6440</td>
+      <td>38.4912</td>
+      <td>849.4026</td>
+      <td>2.7589</td>
+    </tr>
+    <tr>
+      <td>min</td>
+      <td>9.0000</td>
+      <td>68.0000</td>
+      <td>46.0000</td>
+      <td>1613.0000</td>
+      <td>8.0000</td>
+    </tr>
+    <tr>
+      <td>25%</td>
+      <td>17.0000</td>
+      <td>105.0000</td>
+      <td>75.0000</td>
+      <td>2225.2500</td>
+      <td>13.7750</td>
+    </tr>
+    <tr>
+      <td>50%</td>
+      <td>22.7500</td>
+      <td>151.0000</td>
+      <td>93.5000</td>
+      <td>2803.5000</td>
+      <td>15.5000</td>
+    </tr>
+    <tr>
+      <td>75%</td>
+      <td>29.0000</td>
+      <td>275.7500</td>
+      <td>126.0000</td>
+      <td>3614.7500</td>
+      <td>17.0250</td>
+    </tr>
+    <tr>
+      <td>max</td>
+      <td>46.6000</td>
+      <td>455.0000</td>
+      <td>230.0000</td>
+      <td>5140.0000</td>
+      <td>24.8000</td>
+    </tr>
+  </tbody>
+</table>
+
+### Correlation heat map
+
+![corr_heatmap](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/a4621ba8-3dc8-497d-b842-efda76a49830)
+
+### Pair plot
+
+![pair_plot]()
+
+### Pandas profile report 
+
+for more descriptive info on this dataset click [here](https://automobile-mile-per-gallon-prediction.tiiny.site/)
