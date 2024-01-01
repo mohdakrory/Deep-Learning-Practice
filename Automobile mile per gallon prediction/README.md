@@ -806,3 +806,7 @@ for more descriptive info on this dataset click [here](https://automobile-mile-p
     </tr>
   </tbody>
 </table>
+
+## Train-Test split 
+
+Train-Test ----> 0.8:0.2
