@@ -445,7 +445,7 @@ Predict automobile mile per gallon based on given features
 
 **Combined**
 
-![continous_combined](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/a9f9fe33-27fd-41ff-979f-63d507136c33)
+![continous_combined](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/1a27c8b4-5e35-4aae-83ee-70a6ac90a8b8)
 
 ### continuous features descriptive statistics
 
@@ -534,8 +534,157 @@ Predict automobile mile per gallon based on given features
 
 ### Pair plot
 
-
+![pair_plot](https://github.com/mohdakrory/Deep-Learning-Practice/blob/main/Automobile%20mile%20per%20gallon%20prediction/Data%20description%20and%20visualization/pair_plot.png)
 
 ### Pandas profile report 
 
 for more descriptive info on this dataset click [here](https://automobile-mile-per-gallon-prediction.tiiny.site/)
+
+## Feature encoding
+
+### One-hot encoding of origin
+
+<table border="1">
+  <tr>
+    <th></th>
+    <th>is_USA</th>
+    <th>is_Europe</th>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Europe</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Japan</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+
+> Note that these three categories were encoded in 2 columns to avoid the dummy variable trap
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>cylinders</th>
+      <th>displacement</th>
+      <th>horsepower</th>
+      <th>weight</th>
+      <th>acceleration</th>
+      <th>model year</th>
+      <th>is_USA</th>
+      <th>is_Europe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8</td>
+      <td>307.0000</td>
+      <td>130</td>
+      <td>3504</td>
+      <td>12.0000</td>
+      <td>70</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>350.0000</td>
+      <td>165</td>
+      <td>3693</td>
+      <td>11.5000</td>
+      <td>70</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>318.0000</td>
+      <td>150</td>
+      <td>3436</td>
+      <td>11.0000</td>
+      <td>70</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>304.0000</td>
+      <td>150</td>
+      <td>3433</td>
+      <td>12.0000</td>
+      <td>70</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>302.0000</td>
+      <td>140</td>
+      <td>3449</td>
+      <td>10.5000</td>
+      <td>70</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <!-- ... (add other rows as needed) ... -->
+    <tr>
+      <td>4</td>
+      <td>140.0000</td>
+      <td>86</td>
+      <td>2790</td>
+      <td>15.6000</td>
+      <td>82</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>97.0000</td>
+      <td>52</td>
+      <td>2130</td>
+      <td>24.6000</td>
+      <td>82</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>135.0000</td>
+      <td>84</td>
+      <td>2295</td>
+      <td>11.6000</td>
+      <td>82</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>120.0000</td>
+      <td>79</td>
+      <td>2625</td>
+      <td>18.6000</td>
+      <td>82</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>119.0000</td>
+      <td>82</td>
+      <td>2720</td>
+      <td>19.4000</td>
+      <td>82</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+
