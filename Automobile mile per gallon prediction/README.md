@@ -443,10 +443,6 @@ Predict automobile mile per gallon based on given features
 
 ![continous_hist_kde_plot](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/c9eba633-5d9d-4f60-9cb2-882275c54a8a)
 
-**Combined**
-
-![continous_combined](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/1a27c8b4-5e35-4aae-83ee-70a6ac90a8b8)
-
 ### continuous features descriptive statistics
 
 <table border="1">
@@ -809,4 +805,38 @@ for more descriptive info on this dataset click [here](https://automobile-mile-p
 
 ## Train-Test split 
 
-Train-Test ----> 0.8:0.2
+Train : Test ----> 0.8 : 0.2
+
+## Model Architecture
+
+![model](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/fb0fb4a0-e318-4b80-82ca-0ace351d5526)
+
+## Performance
+
+### Regression metrics on the test set
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>MSE</th>
+      <th>MAE</th>
+      <th>R2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10.7755</td>
+      <td>2.5666</td>
+      <td>0.8118</td>
+    </tr>
+  </tbody>
+</table>
+
+### Training and validation curves
+
+![Train-Validation_Curves](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/004bbd7c-8612-4760-986d-22c8efec3548)
+
+## Framework diagram
+
+![framework diagram](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/9a598d29-b098-4349-9a32-bc877d149b4d)
+
