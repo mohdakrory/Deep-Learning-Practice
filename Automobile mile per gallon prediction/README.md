@@ -443,7 +443,7 @@ Predict automobile mile per gallon based on given features
 
 ![continous_hist_kde_plot](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/c9eba633-5d9d-4f60-9cb2-882275c54a8a)
 
-### continuous features descriptive statistics
+### Continuous features descriptive statistics
 
 <table border="1">
   <thead>
@@ -524,7 +524,7 @@ Predict automobile mile per gallon based on given features
   </tbody>
 </table>
 
-### Correlation heat map
+### Correlation heatmap
 
 ![corr_heatmap](https://github.com/mohdakrory/Deep-Learning-Practice/assets/67663339/a4621ba8-3dc8-497d-b842-efda76a49830)
 
